@@ -9,8 +9,6 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        resValue "string", "sso_client_id", SSO_CLIENT_ID
-        resValue "string", "sso_client_secret", SSO_CLIENT_SECRET
     }
     buildTypes {
         release {
@@ -30,12 +28,6 @@ dependencies {
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
     compile 'com.android.support:design:26.1.0'
     compile 'com.jakewharton:butterknife:8.8.1'
-    compile 'com.google.code.gson:gson:2.8.0'
-    compile 'com.squareup.okhttp3:okhttp:3.8.1'
-    compile 'com.squareup.retrofit2:retrofit:2.3.0'
-    compile 'com.squareup.retrofit2:converter-gson:2.3.0'
-    compile 'com.squareup.retrofit2:converter-scalars:2.1.0'
-    compile 'com.michaelpardo:activeandroid:3.1.0-SNAPSHOT'
     compile 'com.github.florent37:materialtextfield:1.0.7'
     compile project(':ssoui')
 }

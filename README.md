@@ -1,7 +1,7 @@
 SSO UI Library
 ==============
 
-A library for SSO (Single Sign On) Universitas Indonesia with Java language. This will validate a user through [https://sso.ui.ac.id/oauth/lockdin](https://sso.ui.ac.id/oauth/lockdin) and get student details.
+A library for SSO (Single Sign On) Universitas Indonesia with Java language. This will validate a user through [https://sso.ui.ac.id](https://sso.ui.ac.id) and get student details.
 
 ## Install
 

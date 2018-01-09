@@ -8,38 +8,38 @@ A library for SSO (Single Sign On) Universitas Indonesia with Java language. Thi
 ### Gradle
  - Step 1. Add the JitPack repository to your build file
 ```
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
 ```
 Add that in your root _build.gradle_ at the end of repositories.
  - Step 2. Add the dependency
 ```
-	dependencies {
-	        compile 'com.github.mgilangjanuar:SSO-UI-Library:master-SNAPSHOT'
-	}
+dependencies {
+    compile 'com.github.mgilangjanuar:SSO-UI-Library:master-SNAPSHOT'
+}
 ```
 
 ### Maven
  - Step 1. Add the JitPack repository to your build file
 ```
-	<repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
-	</repositories>
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
 ```
  - Step 2. Add the dependency
 ```
-	<dependency>
-	    <groupId>com.github.mgilangjanuar</groupId>
-	    <artifactId>SSO-UI-Library</artifactId>
-	    <version>-SNAPSHOT</version>
-	</dependency>
+<dependency>
+    <groupId>com.github.mgilangjanuar</groupId>
+    <artifactId>SSO-UI-Library</artifactId>
+    <version>-SNAPSHOT</version>
+</dependency>
 ```
 
 ## Example Usage

@@ -50,7 +50,7 @@ import com.mgilangjanuar.dev.ssoui.SSOAuthentication;
 import com.mgilangjanuar.dev.ssoui.listener.AuthListener;
 
 
-SSOAuthentication.login(username, password, new AuthListener() {
+SSOAuthentication.login('username', 'password', new AuthListener() {
 
     @Override
     public void onError(String message) {

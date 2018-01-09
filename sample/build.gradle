@@ -29,5 +29,5 @@ dependencies {
     compile 'com.android.support:design:26.1.0'
     compile 'com.jakewharton:butterknife:8.8.1'
     compile 'com.github.florent37:materialtextfield:1.0.7'
-    compile project(':ssoui')
+    implementation project(':ssoui')
 }

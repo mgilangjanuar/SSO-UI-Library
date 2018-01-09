@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 
 ext {
     bintrayRepo = 'SSOAuthentication'
-    bintrayName = 'SSOAuthentication'
+    bintrayName = 'SSO-UI-Library'
 
     publishedGroupId = 'dev.mgilangjanuar.com'
     libraryName = 'ssoui'
@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/mgilangjanuar/SSO-UI-Library'
     gitUrl = 'https://github.com/mgilangjanuar/SSO-UI-Library.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.1'
 
     developerId = 'mgilangjanuar'
     developerName = 'M Gilang Januar'

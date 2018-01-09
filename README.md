@@ -19,7 +19,7 @@ Add that in your root _build.gradle_ at the end of repositories.
  - Step 2. Add the dependency
 ```
 dependencies {
-    compile 'com.github.mgilangjanuar:SSO-UI-Library:master-SNAPSHOT'
+    compile 'com.github.mgilangjanuar:SSOAuthentication:master-SNAPSHOT'
 }
 ```
 
@@ -37,8 +37,8 @@ dependencies {
 ```
 <dependency>
     <groupId>com.github.mgilangjanuar</groupId>
-    <artifactId>SSO-UI-Library</artifactId>
-    <version>-SNAPSHOT</version>
+    <artifactId>SSOAuthentication</artifactId>
+    <version>master-SNAPSHOT</version>
 </dependency>
 ```
 

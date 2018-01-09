@@ -1,5 +1,29 @@
 apply plugin: 'com.android.library'
 
+ext {
+    bintrayRepo = 'SSOAuthentication'
+    bintrayName = 'SSOAuthentication'
+
+    publishedGroupId = 'dev.mgilangjanuar.com'
+    libraryName = 'ssoui'
+    artifact = 'ssoui'
+
+    libraryDescription = 'Android module for user validation through SSO (Single Sign On) Universitas Indonesia'
+
+    siteUrl = 'https://github.com/mgilangjanuar/SSO-UI-Library'
+    gitUrl = 'https://github.com/mgilangjanuar/SSO-UI-Library.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'mgilangjanuar'
+    developerName = 'M Gilang Januar'
+    developerEmail = 'mgilangjanuar@gmail.com'
+
+    licenseName = 'MIT License'
+    licenseUrl = 'https://github.com/mgilangjanuar/SSO-UI-Library/blob/master/LICENSE.md'
+    allLicenses = ["MIT"]
+}
+
 android {
     compileSdkVersion 26
 
@@ -37,3 +61,6 @@ dependencies {
     compile 'com.squareup.retrofit2:retrofit:2.3.0'
     compile 'com.squareup.retrofit2:converter-gson:2.3.0'
 }
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'

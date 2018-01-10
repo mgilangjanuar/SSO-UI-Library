@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 
 ext {
     bintrayRepo = 'SSOAuthentication'
-    bintrayName = 'SSO-UI-Library'
+    bintrayName = 'SSOAuthentication'
 
     publishedGroupId = 'com.mgilangjanuar.dev'
     libraryName = 'ssoui'
@@ -10,8 +10,8 @@ ext {
 
     libraryDescription = 'Android module for user validation through SSO (Single Sign On) Universitas Indonesia'
 
-    siteUrl = 'https://github.com/mgilangjanuar/SSO-UI-Library'
-    gitUrl = 'https://github.com/mgilangjanuar/SSO-UI-Library.git'
+    siteUrl = 'https://github.com/mgilangjanuar/SSOAuthentication'
+    gitUrl = 'https://github.com/mgilangjanuar/SSOAuthentication.git'
 
     libraryVersion = '1.0.0'
 
@@ -20,7 +20,7 @@ ext {
     developerEmail = 'mgilangjanuar@gmail.com'
 
     licenseName = 'MIT License'
-    licenseUrl = 'https://github.com/mgilangjanuar/SSO-UI-Library/blob/master/LICENSE.md'
+    licenseUrl = 'https://github.com/mgilangjanuar/SSOAuthentication/blob/master/LICENSE.md'
     allLicenses = ["MIT"]
 }
 
